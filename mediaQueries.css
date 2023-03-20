@@ -1,0 +1,157 @@
+@media only screen and (max-width: 1600px) {
+    .header-container {
+        width: 60%;
+    }
+}
+
+
+@media only screen and (max-width: 1350px) {
+    .header-container {
+        width: 75%;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .header-container {
+        width: 80%;
+    }
+
+    .header-1 {
+        font-size: 32px;
+    }
+
+    .scoreboard span,
+    .player-header {
+        font-size: 14px;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .header-container {
+        width: 98%;
+    }
+
+}
+
+
+@media only screen and (max-width: 776px) {
+    .header-container {
+        width: 100%;
+    }
+
+
+    .cricket-scoreboard-wrapper {
+        flex-direction: column;
+    }
+
+    .player {
+        width: 99%;
+        height: 24%;
+    }
+
+    .score-1,
+    .score-2,
+    .score-3 {
+        height: 10px;
+        border-radius: 1px;
+        box-shadow: none;
+    }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .keyboard-wrapper {
+        height: 40%;
+        box-shadow: none;
+    }
+
+    .cricket-scoreboard-wrapper {
+        height: 50%;
+        box-shadow: none;
+    }
+
+    .keyboard-freespace {
+        display: none;
+    }
+
+    .keyboard {
+        width: 88%;
+    }
+
+    .keyboard-additional {
+        height: 90%;
+        width: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: flex-start;
+        justify-content: center;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+
+    .header-1 {
+        font-size: 22px;
+    }
+
+    .score-1,
+    .score-2,
+    .score-3 {
+        width: 24px;
+    }
+
+    .scoreboard span,
+    .player-header {
+        font-size: 12px;
+    }
+
+    .scoreboard .score-score .result {
+        font-size: 24px;
+    }
+
+    .score-case>div span,
+    .multiply-case>div span {
+        font-size: 20px;
+    }
+
+    .display .screen {
+        height: 50%;
+    }
+
+    .display .btn-confirm span {
+        font-size: 18px;
+        padding: 2px;
+        border-radius: 3px;
+        width: 90%;
+        text-align: center;
+    }
+
+    .display .btn-clear span,
+    .display .btn-miss span {
+        padding: 2px;
+        border-radius: 3px;
+        border: 1px solid #e31b23;
+        width: 50%;
+        text-align: center;
+    }
+
+    .keyboard-additional .attempt-1,
+    .keyboard-additional .attempt-2,
+    .keyboard-additional .attempt-3 {
+        width: 12px;
+        height: 12px;
+    }
+
+    .scoring-time .times,
+    .scoring-time .score {
+        font-size: 16px;
+    }
+
+
+}
