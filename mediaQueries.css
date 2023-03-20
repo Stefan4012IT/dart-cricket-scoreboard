@@ -13,6 +13,15 @@
 
 
 @media only screen and (max-width: 1200px) {
+
+    .game-init h1 {
+        font-size: 42px;
+    }
+
+    .game-init .init-box {
+        width: 60%;
+    }
+
     .header-container {
         width: 80%;
     }
@@ -37,10 +46,23 @@
 
 
 @media only screen and (max-width: 776px) {
+
+    .game-init h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .game-init .init-box {
+        width: 80%;
+    }
+
+    .game-init .init-box h2 {
+        text-align: center;
+    }
+
     .header-container {
         width: 100%;
     }
-
 
     .cricket-scoreboard-wrapper {
         flex-direction: column;
